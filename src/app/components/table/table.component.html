@@ -1,0 +1,15 @@
+<table>
+    <thead>
+        <tr>
+        <th>Employee Name</th>
+        <th>Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let employee of allEmployees"
+            [ngStyle]="{'background-color': parseColor(employee.hours) }"
+        >
+            <td>{{employee.EmployeeName}}</td>
+            <td>{{employee.hours}}</td>
+        </tr>
+</table>

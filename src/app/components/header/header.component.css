@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.container .btn {
+  display: block;
+  text-align: center;
+  width: 45%;
+  margin: auto;
+  height: 50%;
+}
+
+.container .btn.active1 {
+  border-bottom: 2px solid blue;
+  border-right: 2px solid blue;
+  border-radius: 5px;
+}
+
+.container .btn.active2 {
+  border-bottom: 2px solid blue;
+  border-left: 2px solid blue;
+  border-radius: 5px;
+}
