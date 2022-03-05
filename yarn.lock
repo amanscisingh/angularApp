@@ -128,7 +128,7 @@
   dependencies:
     "tslib" "^2.3.0"
 
-"@angular/cli@~13.2.5":
+"@angular/cli@^13.2.5":
   "integrity" "sha512-S1uuScNCue6K7HpSG707/N+ULy+utrByeYLjx8zIwIOW1/ZjLB+1/Dxem3bu/OSLY2j2R7bX1WHw8Mnljnk4QQ=="
   "resolved" "https://registry.npmjs.org/@angular/cli/-/cli-13.2.5.tgz"
   "version" "13.2.5"
@@ -1623,7 +1623,7 @@
   dependencies:
     "debug" "4"
 
-"agentkeepalive@^4.1.3", "agentkeepalive@^4.2.0":
+"agentkeepalive@^4.1.3", "agentkeepalive@^4.2.1":
   "integrity" "sha512-Zn4cw2NEqd+9fiSVWMscnjyQ1a8Yfoc5oBajLeo5w+YBHgDUcEBY2hS4YpTz6iN5f/2zQiktcuM6tS8x1p9dpA=="
   "resolved" "https://registry.npmjs.org/agentkeepalive/-/agentkeepalive-4.2.1.tgz"
   "version" "4.2.1"
@@ -2624,7 +2624,7 @@
   "resolved" "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz"
   "version" "1.0.2"
 
-"encoding@^0.1.12":
+"encoding@^0.1.12", "encoding@^0.1.13":
   "integrity" "sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A=="
   "resolved" "https://registry.npmjs.org/encoding/-/encoding-0.1.13.tgz"
   "version" "0.1.13"
@@ -3903,10 +3903,10 @@
   dependencies:
     "yallist" "^4.0.0"
 
-"lru-cache@^7.3.1":
-  "integrity" "sha512-YOfuyWa/Ee+PXbDm40j9WXyJrzQUynVbgn4Km643UYcWNcrSfRkKL0WaiUcxcIbkXcVTgNpDqSnPXntWXT75cw=="
-  "resolved" "https://registry.npmjs.org/lru-cache/-/lru-cache-7.4.0.tgz"
-  "version" "7.4.0"
+"lru-cache@^7.4.0":
+  "integrity" "sha512-NCD7/WRlFmADccuHjsRUYqdluYBr//n/O0fesCb/n52FoGcgKh8o4Dpm7YIbZwVcDs8rPBQbCZLmWWsp6m+xGQ=="
+  "resolved" "https://registry.npmjs.org/lru-cache/-/lru-cache-7.4.1.tgz"
+  "version" "7.4.1"
 
 "magic-string@^0.25.0", "magic-string@0.25.7":
   "integrity" "sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA=="
@@ -3931,20 +3931,20 @@
     "semver" "^6.0.0"
 
 "make-fetch-happen@^10.0.1":
-  "integrity" "sha512-CzarPHynPpHjhF5in/YapnO44rSZeYX5VCMfdXa99+gLwpbfFLh20CWa6dP/taV9Net9PWJwXNKtp/4ZTCQnag=="
-  "resolved" "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.0.3.tgz"
-  "version" "10.0.3"
+  "integrity" "sha512-CiReW6usy3UXby5N46XjWfLPFPq1glugCszh18I0NYJCwr129ZAx9j3Dlv+cRsK0q3VjlVysEzhdtdw2+NhdYA=="
+  "resolved" "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.0.4.tgz"
+  "version" "10.0.4"
   dependencies:
-    "agentkeepalive" "^4.2.0"
+    "agentkeepalive" "^4.2.1"
     "cacache" "^15.3.0"
     "http-cache-semantics" "^4.1.0"
     "http-proxy-agent" "^5.0.0"
     "https-proxy-agent" "^5.0.0"
     "is-lambda" "^1.0.1"
-    "lru-cache" "^7.3.1"
+    "lru-cache" "^7.4.0"
     "minipass" "^3.1.6"
     "minipass-collect" "^1.0.2"
-    "minipass-fetch" "^1.4.1"
+    "minipass-fetch" "^2.0.1"
     "minipass-flush" "^1.0.5"
     "minipass-pipeline" "^1.2.4"
     "negotiator" "^0.6.3"
@@ -4087,6 +4087,17 @@
     "minizlib" "^2.0.0"
   optionalDependencies:
     "encoding" "^0.1.12"
+
+"minipass-fetch@^2.0.1":
+  "integrity" "sha512-M63u5yWX0yxY1C3DcLVY1xWai0pNM3qa1xCMXFgdejY5F/NTmyzNVHGcBxKerX51lssqxwWWTjpg/ZPuD39gOQ=="
+  "resolved" "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-2.0.2.tgz"
+  "version" "2.0.2"
+  dependencies:
+    "minipass" "^3.1.6"
+    "minipass-sized" "^1.0.3"
+    "minizlib" "^2.1.2"
+  optionalDependencies:
+    "encoding" "^0.1.13"
 
 "minipass-flush@^1.0.5":
   "integrity" "sha512-JmQSYYpPUqX5Jyn1mXaRwOda1uQ8HP5KAT/oDSLCzt1BYRhQU0/hDtsB1ufZfEEzMZ9aAVmsBw8+FWsIXlClWw=="

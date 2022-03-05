@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiUrl: 'https://rc-vault-fap-live-1.azurewebsites.net',
 };

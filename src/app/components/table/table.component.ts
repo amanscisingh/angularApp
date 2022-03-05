@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import {EmployeeFinal} from '../../EmployeeDataReady'
 
-import { GetDataService } from 'src/app/services/get-data.service';
+import { GetDataService } from '../../services/get-data.service';
 
 @Component({
   selector: 'app-table',
